@@ -27,11 +27,11 @@ def check_inventory():
     if check_item_in_stock(page_html):
         print("In stock")
 
-        gmail_user = 'geforce308010gb@gmail.com'
-        gmail_password = '0p9ol8ik!'
+        gmail_user = 'your other email@gmail.com'
+        gmail_password = 'yourpassword'
 
         sent_from = gmail_user
-        to = ['ddotson321@gmail.com']
+        to = ['youremail@gmail.com']
         subject = '3080 10gig in stock!'
         body = ' buy it now!! $699.99  - ' \
                'https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440'
